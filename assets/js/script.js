@@ -5,7 +5,7 @@ $(document).ready(function () {
     const aboutMein = document.querySelector('.aboutMe');
     const aboutMyCourseIn = document.querySelector('.aboutMyCourse');
 	const width = $(window).width();
-	
+
 	if (width > 1666 && width > 768 ){
 		splitScroll();
 	}
@@ -26,7 +26,7 @@ $(document).ready(function () {
 
 	$(".followAlong-btn").click(function() {
 		$('html, body').animate({
-		    scrollTop: $(".section-Middle").offset().top
+		    scrollTop: $(".aboutMe").offset().top
 		}, 1000)
 		aboutMein.classList.add('animated', 'slideInLeft');
 		aboutMyCourseIn.classList.add('animated', 'slideInRight');

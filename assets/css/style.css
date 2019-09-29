@@ -244,4 +244,14 @@ hr{
 		font-size: 17px;
     	margin-top: 18px;
 	}
+
+	.aboutMe{
+		display: flex;
+	    flex-wrap: wrap;
+	    width: 98%;
+	    justify-content: center;
+	    align-items: center;
+	    font-size: 18px;
+	    flex-flow: column;
+	}
 }
