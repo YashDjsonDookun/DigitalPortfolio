@@ -74,6 +74,7 @@ a{
     border: solid 3px #fff;
     background: transparent;
     border-radius: 14px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .followAlong-btn:hover{
@@ -163,4 +164,77 @@ hr{
 	margin-top: 7px;
 	height: 10px;
 	background-color: #fff
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+
+.burger {
+	display: none;
+}
+
+.burger:hover{
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1666px){
+	body {
+		width: 100%;
+	}
+
+	.section-Middle {
+	    display: flex;
+	    height: 100vh;
+	    flex-flow: column;
+	    align-items: center;
+	}
+}
+
+@media screen and (max-width: 768px){
+	body {
+		width: 100%;
+	}
+
+	.navRight > div {
+    	margin-right:0; 
+	}
+	.navRight div a {
+		display: none;
+	}
+	.burger {
+		display: unset;
+	}
+
+	.section-Top {
+	    text-align: center;
+	    font-weight: bold;
+	    font-size: 62px;
+	    display: flex;
+	    flex-direction: column;
+	    margin: auto;
+	    width: 83%;
+	    padding-top: 5vh;
+	    padding-bottom: 97vh;
+	}
+
+	.section-Top h1 {
+		font-size: 40px;
+		margin-top: 14vh;
+	}
+
+	.separator-line {
+	    height: 5px;
+	    margin-top: 8px;
+	}
+
+	.welcomeMsg > h2{
+		font-size: 17px;
+    	margin-top: 18px;
+	}
 }

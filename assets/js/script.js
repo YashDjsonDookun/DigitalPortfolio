@@ -4,13 +4,18 @@ $(document).ready(function () {
     const followAlong =  document.querySelector('.followAlong');
     const aboutMein = document.querySelector('.aboutMe');
     const aboutMyCourseIn = document.querySelector('.aboutMyCourse');
-	splitScroll();
+	const width = $(window).width();
+	if (width > 1666 && width > 768 ){
+		splitScroll();
+	}
 
     $(window).scroll(function () {
         if ($(window).scrollTop()) {
-            $("header").css("background-color", "rgba(0,0,0,0.25)");
+            $("header").css("background-color","rgba(10, 36, 47, 0.95)");
+            $("header").addClass('sticky');
         } else {
             $("header").css("background-color", "transparent");
+            $("header").removeClass('sticky');
         }
     });
 
