@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 	color: #fff;
+	-webkit-appearance: none;
 }
 
 body {
@@ -284,5 +285,4 @@ hr{
 		margin: auto;
 		width: 88%;
 	}
-
 }

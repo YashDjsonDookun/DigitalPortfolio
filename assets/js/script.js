@@ -14,9 +14,14 @@ $(document).ready(function () {
         if ($(window).scrollTop()) {
             $("header").css("background-color","rgba(10, 36, 47, 0.95)");
             $("header").addClass('sticky');
-        } else {
+            aboutMein.classList.add('animated', 'slideInLeft');
+			aboutMyCourseIn.classList.add('animated', 'slideInRight');
+        }
+        else {
             $("header").css("background-color", "transparent");
             $("header").removeClass('sticky');
+            aboutMein.classList.remove('animated', 'slideInLeft');
+			aboutMyCourseIn.classList.remove('animated', 'slideInRight');
         }
     });
 
