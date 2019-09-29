@@ -201,6 +201,13 @@ hr{
 		width: 100%;
 	}
 
+	.section-Middle {
+	    display: flex;
+	    height: 100vh;
+	    flex-flow: column;
+	    align-items: center;
+	}
+
 	.whoAmI {
 	    display: flex;
 	    flex-flow: column;
@@ -253,4 +260,29 @@ hr{
 	    font-size: 18px;
 	    flex-flow: column;
 	}
+
+	.aboutMyCourse{
+		display: flex;
+	    width: 98%;
+	    justify-content: center;
+	    align-items: center;
+	    font-size: 18px;
+	    flex-flow: column;
+	    margin-top: 10vh;
+	}
+
+	.description1 h2 {
+		font-size: 40px;
+	}
+
+	.description2 h2 {
+		font-size: 26px;
+    	font-weight: bold;
+	}
+
+	.description2 ul li{
+		margin: auto;
+		width: 88%;
+	}
+
 }
