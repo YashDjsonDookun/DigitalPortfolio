@@ -201,6 +201,13 @@ hr{
 		width: 100%;
 	}
 
+	.whoAmI {
+	    display: flex;
+	    flex-flow: column;
+	    justify-content: center;
+	    align-items: center;
+	}
+
 	.navRight > div {
     	margin-right:0; 
 	}
