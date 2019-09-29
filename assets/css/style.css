@@ -247,7 +247,6 @@ hr{
 
 	.aboutMe{
 		display: flex;
-	    flex-wrap: wrap;
 	    width: 98%;
 	    justify-content: center;
 	    align-items: center;
