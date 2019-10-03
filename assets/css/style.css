@@ -184,7 +184,7 @@ hr {
     cursor: pointer;
 }
 
-@media screen and (max-width: 1666px) {
+@media screen and (max-width: 1440px) {
     body {
         width: 100%;
     }

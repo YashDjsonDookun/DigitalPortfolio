@@ -6,7 +6,7 @@ $(document).ready(function() {
     const aboutMyCourseIn = document.querySelector('.aboutMyCourse');
     const width = $(window).width();
 
-    if (width > 768) {
+    if (width > 1440) {
         splitScroll();
     }
 
