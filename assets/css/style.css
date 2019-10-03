@@ -1,19 +1,19 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
-	color: #fff;
-	-webkit-appearance: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    -webkit-appearance: none;
 }
 
 body {
-	background-image: radial-gradient(circle, #040e1e, #071624, #081d2a, #0a242f, #0d2b34);
+    background-image: radial-gradient(circle, #040e1e, #071624, #081d2a, #0a242f, #0d2b34);
 }
 
 nav {
-	padding-top: 8px;
-	padding-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 5px;
     display: flex;
     justify-content: space-between;
     width: 98%;
@@ -21,55 +21,55 @@ nav {
     font-size: 20px;
 }
 
-header{
-	padding: 6px;
+header {
+    padding: 6px;
 }
 
 .navRight {
-	display: flex;
-	flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.navRight > div {
-	margin-right: 25px;
+.navRight>div {
+    margin-right: 25px;
 }
 
-a{
-	text-decoration: none;
+a {
+    text-decoration: none;
 }
 
-.section-Top{
-	text-align: center;
-	font-weight: bold;
-	font-size: 70px;
-	display: flex;
-	flex-direction: column;
-	margin: auto;
-	width: 63%;
-	padding-top: 30vh;
-	padding-bottom: 32vh;
+.section-Top {
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 63%;
+    padding-top: 30vh;
+    padding-bottom: 32vh;
 }
 
-.separator-line{
-	height: 10px;
-	background-color: #fff;
-	border-radius: 5px;
+.separator-line {
+    height: 10px;
+    background-color: #fff;
+    border-radius: 5px;
 }
 
-.welcomeMsg{
-	display: flex;
-	flex-wrap: wrap;
-	font-size: 25px;
-	flex-wrap: column;
+.welcomeMsg {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    flex-wrap: column;
 }
 
-.welcomeMsg > h2 {
-	margin-top: 10px;
-	font-size: 25px;
+.welcomeMsg>h2 {
+    margin-top: 10px;
+    font-size: 25px;
 }
 
-.followAlong-btn{
-	height: 65px;
+.followAlong-btn {
+    height: 65px;
     width: 272px;
     font-size: 26px;
     border: solid 3px #fff;
@@ -78,211 +78,198 @@ a{
     font-family: 'Poppins', sans-serif;
 }
 
-.followAlong-btn:hover{
-	cursor: pointer;
+.followAlong-btn:hover {
+    cursor: pointer;
 }
 
-.section-Middle{
-	display: flex;
-	height: 100vh;
+.section-One {
+    display: flex;
+    height: 100vh;
 }
 
-.aboutMe{
-	display: flex;
-	flex-wrap: wrap;
-	width: 50%;
-	justify-content: center;
-	align-items: center;
-	font-size: 18px;
-	flex-flow: column;
-	height: 100vh;
-	margin: 00 !important;
+.aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    flex-flow: column;
+    height: 100vh;
+    margin: 0 !important;
 }
 
-.aboutMyCourse{
-	width: 50%;
+.aboutMyCourse {
+    width: 50%;
 }
 
-.myImage img{
-	height: 267px;
+.myImage img {
+    height: 267px;
     width: 267px;
     margin-bottom: 2vh;
     border: solid 2px #fff;
     border-radius: 50%;
 }
 
-.whoAmI{
-	display: flex;
-	flex-flow: column;
-	justify-content: center;
-	align-items: center;
-	width: 88%;
+.whoAmI {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 88%;
 }
 
 .description1 {
-	display: flex;
-	height: 100%;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column;
-	width: 88%;
-	margin: auto;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 88%;
+    margin: auto;
 }
 
-.description1 h2{
-	margin-top: 7vh;
-	font-size: 46px;
-	font-weight: 100;
-	margin-bottom: 7vh;
+.description1 h2 {
+    margin-top: 7vh;
+    font-size: 46px;
+    font-weight: 100;
+    margin-bottom: 7vh;
 }
 
-.description1 p{
-	font-size: 18px;
+.description1 p {
+    font-size: 18px;
 }
 
-.description2{
-	display: flex;
-	height: 100%;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column;
-	width: 88%;
-	margin: auto;
+.description2 {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 88%;
+    margin: auto;
 }
 
-.description2 h2{
-	margin-top: 7vh;
-	font-size: 46px;
-	font-weight: 100;
-	margin-bottom: 7vh;
+.description2 h2 {
+    margin-top: 7vh;
+    font-size: 46px;
+    font-weight: 100;
+    margin-bottom: 7vh;
 }
 
-.description2 p{
-	font-size: 18px;
+.description2 p {
+    font-size: 18px;
 }
 
-hr{
-	margin-top: 7px;
-	height: 10px;
-	background-color: #fff
+hr {
+    margin-top: 7px;
+    height: 10px;
+    background-color: #fff
 }
 
 .sticky {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  top: 0;
-  z-index: 100;
-  border-top: 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
 }
 
 .burger {
-	display: none;
+    display: none;
 }
 
-.burger:hover{
-	cursor: pointer;
+.burger:hover {
+    cursor: pointer;
 }
 
-@media screen and (max-width: 1666px){
-	body {
-		width: 100%;
-	}
-
-	.section-Middle {
-	    display: flex;
-	    height: 100vh;
-	    flex-flow: column;
-	    align-items: center;
-	}
+@media screen and (max-width: 1666px) {
+    body {
+        width: 100%;
+    }
+    .section-One {
+        display: flex;
+        height: 100vh;
+        flex-flow: column;
+        align-items: center;
+    }
 }
 
-@media screen and (max-width: 768px){
-	body {
-		width: 100%;
-	}
-
-	.section-Middle {
-	    display: flex;
-	    height: 100vh;
-	    flex-flow: column;
-	    align-items: center;
-	}
-
-	.whoAmI {
-	    display: flex;
-	    flex-flow: column;
-	    justify-content: center;
-	    align-items: center;
-	}
-
-	.navRight > div {
-    	margin-right:0; 
-	}
-	.navRight div a {
-		display: none;
-	}
-	.burger {
-		display: unset;
-	}
-
-	.section-Top {
-	    text-align: center;
-	    font-weight: bold;
-	    font-size: 62px;
-	    display: flex;
-	    flex-direction: column;
-	    margin: auto;
-	    width: 83%;
-	    padding-top: 5vh;
-	    padding-bottom: 97vh;
-	}
-
-	.section-Top h1 {
-		font-size: 40px;
-		margin-top: 14vh;
-	}
-
-	.separator-line {
-	    height: 5px;
-	    margin-top: 8px;
-	}
-
-	.welcomeMsg > h2{
-		font-size: 17px;
-    	margin-top: 18px;
-	}
-
-	.aboutMe{
-		display: flex;
-	    width: 98%;
-	    justify-content: center;
-	    align-items: center;
-	    font-size: 18px;
-	    flex-flow: column;
-	}
-
-	.aboutMyCourse{
-		display: flex;
-	    width: 98%;
-	    justify-content: center;
-	    align-items: center;
-	    font-size: 18px;
-	    flex-flow: column;
-	    margin-top: 10vh;
-	}
-
-	.description1 h2 {
-		font-size: 40px;
-	}
-
-	.description2 h2 {
-		font-size: 26px;
-    	font-weight: bold;
-	}
-
-	.description2 ul li{
-		margin: auto;
-		width: 88%;
-	}
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+    .section-One {
+        display: flex;
+        height: 100vh;
+        flex-flow: column;
+        align-items: center;
+    }
+    .whoAmI {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navRight>div {
+        margin-right: 0;
+    }
+    .navRight div a {
+        display: none;
+    }
+    .burger {
+        display: unset;
+    }
+    .section-Top {
+        text-align: center;
+        font-weight: bold;
+        font-size: 62px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 83%;
+        padding-top: 5vh;
+        padding-bottom: 97vh;
+    }
+    .section-Top h1 {
+        font-size: 40px;
+        margin-top: 14vh;
+    }
+    .separator-line {
+        height: 5px;
+        margin-top: 8px;
+    }
+    .welcomeMsg>h2 {
+        font-size: 17px;
+        margin-top: 18px;
+    }
+    .aboutMe {
+        display: flex;
+        width: 98%;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        flex-flow: column;
+    }
+    .aboutMyCourse {
+        display: flex;
+        width: 98%;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        flex-flow: column;
+        margin-top: 10vh;
+    }
+    .description1 h2 {
+        font-size: 40px;
+    }
+    .description2 h2 {
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .description2 ul li {
+        margin: auto;
+        width: 88%;
+    }
 }
