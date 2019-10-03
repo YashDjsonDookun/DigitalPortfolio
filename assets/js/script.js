@@ -41,10 +41,10 @@ function splitScroll() {
     const controller = new ScrollMagic.Controller();
     new ScrollMagic.Scene({
             duration: '100%',
-            triggerElement: '.aboutMe',
+            triggerElement: '.section-One',
             triggerHook: 0
         })
         .setPin('.aboutMe')
-        // .addIndicators()
+        .addIndicators()
         .addTo(controller);
 }

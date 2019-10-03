@@ -84,7 +84,6 @@ a {
 
 .section-One {
     display: flex;
-    height: 100vh;
 }
 
 .aboutMe {
@@ -101,6 +100,7 @@ a {
 
 .aboutMyCourse {
     width: 50%;
+    height: 100vh;
 }
 
 .myImage img {
@@ -271,5 +271,61 @@ hr {
     .description2 ul li {
         margin: auto;
         width: 88%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .description1 {
+        margin-top: 29vh;
+        margin-bottom: 44vh;
+    }
+}
+
+@media screen and (max-width: 1332px) {
+    .description1 {
+        margin-top: 29vh;
+        margin-bottom: 51vh;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .description1 {
+        margin-top: 37vh;
+        margin-bottom: 67vh;
+    }
+}
+
+@media screen and (max-width: 871px) {
+    .description1 {
+        margin-top: 44vh;
+        margin-bottom: 78vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description1 {
+        margin-top: 78vh;
+        margin-bottom: 31vh;
+    }
+}
+
+@media screen and (max-width: 603px) {
+    .description1 {
+        margin-top: 113vh;
+        margin-bottom: 57vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .description1 {
+        margin-top: 137vh;
+        margin-bottom: 66vh;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .description1 {
+        margin-top: 216vh;
+        margin-bottom: 98vh;
     }
 }
