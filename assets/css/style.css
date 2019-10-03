@@ -323,6 +323,13 @@ hr {
     }
 }
 
+@media screen and (max-width: 411px) {
+    .description1 {
+        margin-top: 176vh;
+        margin-bottom: 84vh;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .description1 {
         margin-top: 216vh;
