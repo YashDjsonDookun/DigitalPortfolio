@@ -275,34 +275,54 @@ hr {
 }
 
 @media screen and (max-width: 1024px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
     .description1 {
-        margin-top: 29vh;
+        margin-top: 30vh;
         margin-bottom: 44vh;
     }
 }
 
 @media screen and (max-width: 1332px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
     .description1 {
-        margin-top: 29vh;
-        margin-bottom: 51vh;
+        margin-top: 36vh;
+        margin-bottom: 60vh;
     }
 }
 
 @media screen and (max-width: 960px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
     .description1 {
         margin-top: 37vh;
         margin-bottom: 67vh;
     }
 }
 
-@media screen and (max-width: 871px) {
+@media screen and (max-width: 855px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
     .description1 {
         margin-top: 44vh;
-        margin-bottom: 78vh;
+        margin-bottom: 80vh;
     }
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
     .description1 {
         margin-top: 78vh;
         margin-bottom: 31vh;
@@ -310,6 +330,10 @@ hr {
 }
 
 @media screen and (max-width: 603px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
     .description1 {
         margin-top: 113vh;
         margin-bottom: 57vh;
@@ -317,6 +341,10 @@ hr {
 }
 
 @media screen and (max-width: 500px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
     .description1 {
         margin-top: 137vh;
         margin-bottom: 66vh;
@@ -324,6 +352,10 @@ hr {
 }
 
 @media screen and (max-width: 411px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
     .description1 {
         margin-top: 176vh;
         margin-bottom: 84vh;
@@ -331,6 +363,10 @@ hr {
 }
 
 @media screen and (max-width: 375px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
     .description1 {
         margin-top: 216vh;
         margin-bottom: 98vh;
