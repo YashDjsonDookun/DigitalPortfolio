@@ -1,15 +1,37 @@
 $(document).ready(function() {
-    const titleText = document.querySelector('.titleText');
-    const welcomeMsg = document.querySelector('.welcomeMsg');
-    const followAlong = document.querySelector('.followAlong');
-    const aboutMein = document.querySelector('.aboutMe');
-    const aboutMyCourseIn = document.querySelector('.aboutMyCourse');
-    const width = $(window).width();
+    if (window.location.href.includes('index.html')) {
+        const titleText = document.querySelector('.titleText');
+        const welcomeMsg = document.querySelector('.welcomeMsg');
+        const followAlong = document.querySelector('.followAlong');
+        const aboutMein = document.querySelector('.aboutMe');
+        const aboutMyCourseIn = document.querySelector('.aboutMyCourse');
+        const width = $(window).width();
 
-    if (width > 1440) {
-        splitScroll();
+        if (width > 1440) {
+            splitScroll();
+        }
+
+        keepStickyNav();
+
+        titleText.classList.add('animated', 'fadeInLeft');
+        welcomeMsg.classList.add('animated', 'slideInUp');
+        followAlong.classList.add('animated', 'zoomIn');
+
+        $(".followAlong-btn").click(function() {
+            $('html, body').animate({
+                scrollTop: $(".aboutMe").offset().top
+            }, 1000)
+            aboutMein.classList.add('animated', 'slideInLeft');
+            aboutMyCourseIn.classList.add('animated', 'slideInRight');
+        });
+    } else if (window.location.href.includes("animations.html")) {
+        photoshopAnimation();
+        keepStickyNav();
     }
+});
 
+
+function keepStickyNav() {
     $(window).scroll(function() {
         if ($(window).scrollTop()) {
             $("header").css("background-color", "rgba(10, 36, 47, 0.95)");
@@ -23,19 +45,9 @@ $(document).ready(function() {
             aboutMyCourseIn.classList.remove('animated', 'slideInRight');
         }
     });
+}
 
-    titleText.classList.add('animated', 'fadeInLeft');
-    welcomeMsg.classList.add('animated', 'slideInUp');
-    followAlong.classList.add('animated', 'zoomIn');
-
-    $(".followAlong-btn").click(function() {
-        $('html, body').animate({
-            scrollTop: $(".aboutMe").offset().top
-        }, 1000)
-        aboutMein.classList.add('animated', 'slideInLeft');
-        aboutMyCourseIn.classList.add('animated', 'slideInRight');
-    });
-
+function photoshopAnimation() {
     // Photoshop Animation
     anime.timeline({ loop: true })
         .add({
@@ -52,7 +64,7 @@ $(document).ready(function() {
             easing: "easeOutExpo",
             delay: 1000
         });
-});
+}
 
 function splitScroll() {
     const controller = new ScrollMagic.Controller();
