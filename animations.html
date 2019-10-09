@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <title>Animations</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav>
+                <div class="navLeft">
+                    <a href="/">Yash Djson Dookun</a>
+                </div>
+                <div class="navRight">
+                    <div>
+                        <a href="/">Home</a>
+                    </div>
+                    <div>
+                        <div class="projects" onclick="toggleDropDown()">Projects</div>
+                        <div id="dropdown" class="dropdown-content">
+                            <a href="./animations.html">Animations</a>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#">Contact Me</a>
+                    </div>
+                    <div class="burger">
+                        <img src="./assets/images/navbar/menu_24px.png" alt="">
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="main">
+            <section class="sectionTitle">
+                <div class="animations-gif">
+                    <img id="animations" src="./assets/images/Animations/Animations.gif" alt="">
+                </div>
+            </section>
+            <section class="sectionMain">
+                <article class="Gifs">
+                    <h3>GIFs</h3>
+                    <div class="separator-line "></div>
+                    <div class="header-gifs">
+                        <div class="gifOne">
+                            <img src="./assets/images/gifs/giphy-pokemon.gif" alt="" id="poke">
+                            <p>src: https://www.reddit.com/r/Cinemagraphs/comments/723n3j/are_animations_allowed_thought_this_was_cool/</p>
+                        </div>
+                        <div class="gif2">
+                            <img src="./assets/images/gifs/giphy-itatchi1.gif" alt="" id="itatchi1">
+                            <p>src: https://notionsandnostalgia.tumblr.com/post/45972087200/i-understand-now-even-if-i-must-take-the-devils</p>
+                        </div>
+                    </div>
+                    <div class="contentOne">
+                        <p class="intro">
+                            It's been a few weeks since we've gotten into the 1st Semester of this 2nd Year.
+                            <br> The main module that requested this digital portfolio - <strong>LLC 2050Y - 2D Animation Tools and Techniques</strong> - promised to englobe a series of practicals w.r.t to Animation (tools/techniques). For one of the
+                            first assignments, we were given a series of turorials and practicals to go through and complete on Gifs.
+                            <br> Now, Gifs are used almost by everyone in this modern era of social media and instant messaging revolution... But! How exactly are Gifs created?
+                            <br> I've always known that if Gifs are like "small videos", they should obviously be created in Video Editing Softwares such as Adobe Premiere Pro, KdenLive, etc... Hell, I've personally seen smartphones instantly turn video
+                            clips/recordings into gifs at the click of a button... HOWEVER, you might be just as surprised as I was to know that Gifs can be created from Scratch from one of, if not the, most popular Photo Editing/Manipulation software
+                            on the market.
+                            <br>
+                            <br>Yes! I'm talking of :
+                        </p>
+                        <div class="contentTwo">
+                            <h1 class="photoShopAnimation">
+                                <span class="word">ADOBE</span>
+                                <span class="word">PHOTOSHOP</span>
+                            </h1>
+                        </div>
+                        <p class="tip">
+                            Quick Info:
+                            <br>
+                            <i>A GIF - Graphics Interchange Format - is a bitmap image format that was developed in 1987 that supports up to 8bits per pixel for each image, allowing a single image to reference its own palette of up to 256 different colors
+                                    chosen from the 24-bit RGB color space. <br>
+                                    It supports animations and allows a separate palette of up to 256 colors for each frame, uses the Lempel-Ziv-Welch (LZW) lossless data compression technique to reduce the file size without degrading the visual quality.
+                                    (WIKIPEDIA)
+                                </i>
+                            <br>
+                        </p>
+                    </div>
+                </article>
+            </section>
+        </section>
+        <footer>
+            <section class="contactMe">
+                <ul>
+                    <li>
+                        <a href="#"><img src="./assets/images/Footer/twitter_127px.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/images/Footer/facebook_127px.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/images/Footer/instagram_127px.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/images/Footer/email_127px.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/images/Footer/github_127px.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/images/Footer/skype_127px.png" alt=""></a>
+                    </li>
+                </ul>
+            </section>
+            <div class="txt">
+                <p>©All Rights Reserved</p>
+                <p>|</p>
+                <p>Designed & Developed By: Yash Djson Dookun</p>
+                <p>|</p>
+                <p>2019</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

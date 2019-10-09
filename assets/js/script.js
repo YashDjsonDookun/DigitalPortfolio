@@ -35,6 +35,23 @@ $(document).ready(function() {
         aboutMein.classList.add('animated', 'slideInLeft');
         aboutMyCourseIn.classList.add('animated', 'slideInRight');
     });
+
+    // Photoshop Animation
+    anime.timeline({ loop: true })
+        .add({
+            targets: '.photoShopAnimation .word',
+            scale: [14, 1],
+            opacity: [0, 1],
+            easing: "easeOutCirc",
+            duration: 800,
+            delay: (el, i) => 800 * i
+        }).add({
+            targets: '.photoShopAnimation',
+            opacity: 0,
+            duration: 1000,
+            easing: "easeOutExpo",
+            delay: 1000
+        });
 });
 
 function splitScroll() {
@@ -45,6 +62,25 @@ function splitScroll() {
             triggerHook: 0
         })
         .setPin('.aboutMe')
-        .addIndicators()
+        // .addIndicators()
         .addTo(controller);
+}
+
+// Toggles drop down menu list
+function toggleDropDown() {
+    document.getElementById("dropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+    if (!event.target.matches('.projects')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
 }
