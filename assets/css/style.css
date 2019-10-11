@@ -518,3 +518,47 @@ footer .txt {
     width: 173px;
     margin-bottom: 59px;
 }
+
+.contentOne {
+    width: 95%;
+    margin: auto;
+    margin-top: 84px;
+}
+
+.animations-gif {
+    border: solid 9px #fff;
+    border-radius: 67px;
+    border-style: dotted;
+    margin-bottom: 124px;
+}
+
+.contentOneptTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 43px;
+    margin-bottom: 23px;
+}
+
+.tip {
+    font-size: 13px;
+}
+
+.contentTwo {
+    width: 95%;
+    margin: auto;
+    margin-top: 2vh;
+    display: flex;
+    flex-flow: column;
+}
+
+.contentTwo ol {
+    margin-left: 64px;
+}
+
+.contentTwo img {
+    margin-left: 310px;
+    margin-top: 38px;
+    width: 1077px;
+    height: 567px;
+}
