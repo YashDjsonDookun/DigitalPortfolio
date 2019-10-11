@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    if (window.location.href.includes('index.html')) {
+    if (window.location.href.includes('index.html') || window.location.href == "http://127.0.0.1:8080/" || window.location.href == "https://yashdjsondookun.github.io/DigitalPortfolio/") {
         const titleText = document.querySelector('.titleText');
         const welcomeMsg = document.querySelector('.welcomeMsg');
         const followAlong = document.querySelector('.followAlong');
@@ -8,7 +8,7 @@ $(document).ready(function() {
         const width = $(window).width();
 
         // if (width > 1440) {
-            splitScroll();
+        splitScroll();
         // }
 
         keepStickyNav();
