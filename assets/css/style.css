@@ -226,7 +226,8 @@ hr {
     cursor: pointer;
 }
 
-@media screen and (max-width: 1440px) {
+
+/* @media screen and (max-width: 1440px) {
     body {
         width: 100%;
     }
@@ -236,9 +237,10 @@ hr {
         flex-flow: column;
         align-items: center;
     }
-}
+} */
 
-@media screen and (max-width: 768px) {
+
+/* @media screen and (max-width: 768px) {
     body {
         width: 100%;
     }
@@ -413,7 +415,7 @@ hr {
         margin-top: 216vh;
         margin-bottom: 98vh;
     }
-}
+} */
 
 #animations {
     width: 776px;
