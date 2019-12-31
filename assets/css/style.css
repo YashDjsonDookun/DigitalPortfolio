@@ -586,3 +586,23 @@ footer .txt {
 .contentThree div p {
     margin-left: 83px;
 }
+
+.VisualStorytelling_StoryBoarding {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.VisualStorytelling_StoryBoarding h3 {
+    font-size: 50px;
+}
+
+.VisualStorytelling_StoryBoarding .separator-line {
+    height: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 920px;
+    margin-bottom: 59px;
+}
