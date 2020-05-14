@@ -29,6 +29,14 @@ $(document).ready(function() {
         photoshopAnimation();
         keepStickyNav();
     }
+
+    $(".link-oldPortfolio").css("cursor", "pointer");
+
+    $(".vector").hover(function() {
+        if (confirm("I've Talked about this particular topic in my old Portfolio, Want to check it out?")) {
+            window.location.href = "https://sites.google.com/umail.uom.ac.mu/djson/visual-communication/raster-vs-vector";
+        }
+    });
 });
 
 
@@ -95,5 +103,23 @@ window.onclick = function(event) {
                 openDropdown.classList.remove('show');
             }
         }
+    }
+}
+
+function openPage(page) {
+    if (page == 'Valentines') {
+        window.open('./assets/images/AdobeAnimate/AdobeAnimate_Animations/Valentines/ValentinesCard.html', '_blank')
+    }
+    if (page == 'DragDrop') {
+        window.open('./assets/images/AdobeAnimate/AdobeAnimate_Animations/Drag_and_Drop/DragDrop.html', '_blank')
+    }
+    if (page == 'practical_ad') {
+        window.open('./assets/images/AdobeAnimate/AdobeAnimate_Animations/Practical_ad/practical5js.html', '_blank')
+    }
+    if (page == 'corona') {
+        window.open('./assets/images/AdobeAnimate/AdobeAnimate_Animations/Corona/coronaanimation.html', '_blank')
+    }
+    if (page == 'coro-game') {
+        window.open('./assets/images/AdobeAnimate/AdobeAnimate_Animations/CoroGame/yash.html', '_blank')
     }
 }

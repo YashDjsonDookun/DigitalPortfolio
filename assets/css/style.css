@@ -489,11 +489,16 @@ footer .txt {
     line-height: 1em;
 }
 
-.Gifs {
+.Gifs,
+.adobeAnimate {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+}
+
+.adobeAnimate h3 {
+    font-size: 50px;
 }
 
 .Gifs h3 {
@@ -518,6 +523,14 @@ footer .txt {
     background-color: #fff;
     border-radius: 5px;
     width: 173px;
+    margin-bottom: 59px;
+}
+
+.adobeAnimate .separator-line {
+    height: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 720px;
     margin-bottom: 59px;
 }
 
@@ -605,4 +618,41 @@ footer .txt {
     border-radius: 5px;
     width: 920px;
     margin-bottom: 59px;
+}
+
+.sectionTitle h1 {
+    font-size: 70px;
+    margin: 70px;
+}
+
+.animationThumbnail {
+    display: flex;
+    flex-flow: column;
+    margin-top: 30px;
+    border: solid 3px #fff;
+    border-radius: 11px;
+    padding: 11px;
+    text-align: center;
+}
+
+.animationThumbnail:hover {
+    padding: 9px;
+    cursor: pointer;
+}
+
+.animationThumbnail p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.animationThumbnail img {
+    width: 300px;
+    height: 290px;
+}
+
+.thumbnails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
